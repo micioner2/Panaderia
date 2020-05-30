@@ -1,0 +1,113 @@
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+
+.main {
+    background: url(../img/textura.png);
+    background-repeat: repeat; 
+    padding: 20px;
+    font-family: "Open Sans", sans-serif; 
+}
+
+.main .menu- {
+    padding-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.main .menu- .titulo {
+    font-family: 'Pacifico',cursive;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px; 
+}
+
+.main .menu- .contenedor-menu,
+.main .menu- .contenedor-menu2 article{
+  border: 1px solid #000;
+  background: transparent;
+  padding: 10px;
+  overflow: hidden; 
+  border-radius: 1em;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 17);
+}
+
+.main .menu- .contenedor-menu article,
+.main .menu- .contenedor-menu2 article {
+  width: 50%;
+  float: left;
+  padding: 20px; 
+}
+
+.main .menu- .contenedor-menu article .categoria,
+.main .menu- .contenedor-menu2 article .categoria {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center; 
+  background: rgba(205, 92, 92);
+  color: #FFF;
+  border-radius: 5em;
+}
+
+
+.main .menu- .contenedor-menu article .pan,
+    .main .menu- .contenedor-menu article .dulce,
+    .main .menu- .contenedor-menu2 article .pan,
+    .main .menu- .contenedor-menu2 article .dulce {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 4px dotted #111;
+        overflow: hidden; 
+}
+
+.main .menu- .contenedor-menu article .pan .nombre,
+.main .menu- .contenedor-menu article .dulce .nombre,
+.main .menu- .contenedor-menu2 article .pan .nombre,
+.main .menu- .contenedor-menu2 article .dulce .nombre {
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: left; 
+}
+
+.main .menu- .contenedor-menu article .pan .precio,
+.main .menu- .contenedor-menu article .dulce .precio,
+.main .menu- .contenedor-menu2 article .pan .precio,
+.main .menu- .contenedor-menu2 article .dulce .precio {
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: right;
+ }
+
+ .main .menu-.contenedor-menu article .pan .descripcion,
+ .main .menu- .contenedor-menu article .dulce .descripcion,
+ .main .menu- .contenedor-menu2 article .pan .descripcion,
+ .main .menu- .contenedor-menu2 article .dulce .descripcion {
+   font-size: 16px;
+   color: #676767;
+   clear: both; 
+}
+
+
+@media screen and (max-width: 800px) {
+
+  /* main .menu- {
+        padding-top: 300px; 
+    }  . */
+        .main .menu- .contenedor .contenedor-menu .contenedor-menu2 article {
+          width: 100%; 
+    }
+    .main .menu- .contenedor .titulo {
+        font-size: 30px; 
+    }
+    .main .menu- .contenedor .contenedor-menu .contenedor-menu2 article .pan .nombre,
+    .main .menu- .contenedor .contenedor-menu .contenedor-menu2 article .pan .precio,
+    .main .menu- .contenedor .contenedor-menu .contenedor-menu2 article .dulce .nombre,
+    .main .menu- .contenedor .contenedor-menu .contenedor-menu2 article .dulce .precio {
+    font-size: 16px;
+    line-height: 16px; 
+}
+}
